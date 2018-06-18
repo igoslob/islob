@@ -1,0 +1,715 @@
+html {
+	overflow-x: hidden;
+	
+}
+#container-fluid {
+	width: 1364px;
+	height: 5797px;
+	padding: 0;
+	outline: 0px solid green;
+}
+
+/*navBarContent begin*/
+
+#navBarCont {
+	outline: 0px solid #000000;
+	background-color: #e9e9e9;
+	height:668px;
+	padding: 0;
+	position: relative;
+	background-image: url(../images/navLogo.png);
+	background-repeat: no-repeat;
+	background-position: 95px 37px;
+}
+
+
+#navBar li{
+	font: 12px 'Myriad Pro', sans-serif;
+	color: #191919;
+	list-style-type: none;
+	display: inline-block;
+	padding: 43px 25px 0 0;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+#navBar li.navBarAct {
+	color: #10c9c3;
+}
+
+#navBar li:hover {
+	color: #10c9c3;
+}
+
+#navBarCont ul {
+	padding-left: 650px;
+	margin: 0;
+}
+
+#navBarText {
+	padding: 0 148px 0 761px;
+	font: 17px 'Myriad Pro', sans-serif;
+	color: #787878;
+	line-height: 1.6;
+}
+
+#navBarCont h1 {
+	padding: 171px 148px 26px 761px;
+	font: 38px 'Myriad Pro', sans-serif;
+	color: #191919;
+	font-weight: bold;
+	margin: 0;
+}
+
+#buttonLink {
+	background-color: #10c9c3;
+	outline: 0px solid green;
+	height:54px;
+	width: 179px;
+	padding: 14px 43px;
+	position: absolute;
+	top: 413px;
+	left: 761px;
+}
+
+#buttonLink a {
+	text-transform: uppercase;
+	cursor: pointer;
+	text-decoration: none;
+	color: #ffffff;
+	font-weight: 12px 'Myriad Pro', sans-serif;
+}
+
+/*navBarContent end*/
+
+/*aboutUs begin*/
+#aboutUs {
+	outline: 0px solid #ff00ff;
+	background-color: #ffffff;
+	height:420px;
+	padding: 100px 0 0 0;
+	position: relative;
+	background-image: url(../images/signature.png);
+	background-repeat: no-repeat;
+	background-position: 550px 250px;
+}
+
+#aboutUs p, #aboutUs h2 {
+	text-align: center;
+}
+
+#aboutUs h2 {
+	color:#000000;
+	font: 30px 'Myriad Pro', sans-serif;
+}
+
+#aboutUs p {
+	color:#a2a2a2;
+	font: 17px 'Myriad Pro', sans-serif;
+	padding: 0 268px 0 268px;
+	line-height: 1.6;
+}
+
+/*aboutUs end*/
+
+/*profSkills begin*/
+
+#profSk {
+	height: 633px;
+	position: relative;
+	outline: 0px solid blue;
+}
+
+#profSk1, #profSk2 {
+	width: 682px;
+	height: 633px;
+	float: left;
+	position: relative;
+	outline: 0px solid #000000;
+}
+
+#profSk1 {
+	outline: 0px solid #ff0000;
+	background-color: #f8f9f9;
+	padding: 163px 85px 163px 100px; 
+}
+
+#profSk2 {
+	outline: 0px solid #fff000;
+	background-color: #e9e9e9;
+}
+
+#profSk1 h2{
+	color:#000000;
+	font: 30px 'Myriad Pro', sans-serif;
+	padding-bottom: 35px;
+	margin: 0;
+}
+
+#profSk1 p {
+	color:#000000;
+	font: 12px 'Myriad Pro', sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding-bottom: 63px;
+	margin: 0;
+}
+
+#profSk1Pic, #profSk2Pic, #profSk3Pic {
+	outline: 0px solid #000000;
+	position: absolute;
+	width: 500px;
+	height: 15px;
+	margin-top: 10px;
+}
+
+#profSk1Pic {
+	top: 246px;
+	background-image: url(../images/profSk1.jpg);
+	background-repeat: no-repeat;
+}
+
+#profSk2Pic {
+	top: 322px;
+	background-image: url(../images/profSk2.jpg);
+	background-repeat: no-repeat;
+}
+
+#profSk3Pic {
+	top: 398px;
+	background-image: url(../images/profSk3.jpg);
+	background-repeat: no-repeat;
+}
+
+/*profSkills end*/
+
+/*begin results*/
+
+#results {
+	height: 240px;
+	position: relative;
+	outline: 0px solid #000000;
+	background-color: #10c9c3;
+
+}
+
+#results ul {
+	margin: 0;
+	padding: 0;
+}
+
+#results li{
+	font: 12px 'Myriad Pro', sans-serif;
+	color: #ffffff;
+	list-style-type: none;
+	display: inline-block;
+	padding-top: 100px;
+	text-transform: uppercase;
+	font-weight: bold;
+	line-height: 2.3;
+	letter-spacing: 0.5px;
+}
+
+.li1 {
+	padding: 0 136px 0 166px;
+}
+
+.li2 {
+	padding: 0 175px 0 0;
+}
+
+.li3 {
+	padding: 0 176px 0 0;
+}
+
+.li4 {
+	padding: 0 186px 0 0;
+}
+
+#results span{
+	font: 18px 'Myriad Pro', sans-serif;
+}
+
+#resCase, #resClock, #resStar, #resHeart {
+	height: 55px;
+	width: 56px;
+	position: absolute;
+	top: 97px;
+}
+
+#resCase {
+	background-image: url(../images/resCase.png);
+	left: 94px;
+}
+
+#resClock {
+	background-image: url(../images/resClock.png);
+	left: 387px;
+}
+
+#resStar {
+	background-image: url(../images/resStar.png);
+	left: 680px;
+}
+
+#resHeart {
+	background-image: url(../images/resHeart.png);
+	left: 1000px;
+}
+
+
+/*end results*/
+
+/*begin chess*/
+
+#chess {
+	height: 598px;
+	position: relative;
+	outline: 0px solid #000000;
+}
+
+#chessDark {
+	outline: 0px solid #000000;
+	height: 299px;
+	width: 341px;
+	background-color: #838383;
+	float: left;
+}
+
+#chessLight {
+	outline: 0px solid #000000;
+	height: 299px;
+	width: 341px;
+	background-color: #dddddd;
+	float: left;
+}
+
+#chessBlack {
+	outline: 0px solid #000000;
+	height: 299px;
+	width: 341px;
+	background-color: #252525;
+	float: left;
+	background-image: url(../images/eyeChess.jpg);
+	background-repeat: no-repeat;
+	background-position: 134px 122px;
+}
+#chessBlack:hover {
+	display: inline-block;
+}
+
+
+/*end chess*/
+
+/*begin load*/
+
+#load {
+	outline: 0px solid #000000;
+	position: relative;
+	height: 100px;
+	background-color: #f5f5f5;
+}
+
+#load p{
+	text-transform: uppercase;
+	font: 12px 'Tahoma', sans-serif;
+	font-weight: bold;
+	color: #8e8e8e;
+	text-align: center;
+	letter-spacing: 2px;
+	padding-top: 45px;
+}
+
+/*end load*/
+
+/*begin workProc*/
+
+#workProc {
+	outline: 0px solid #000000;
+	height: 929px;
+	position: relative;
+	padding-top: 98px;
+}
+
+#workProcIn {
+	outline: 0px solid #0ff000;
+	height: 572px;
+	width: 1170px;
+	background-color: #e7e7e7;
+	position: relative;
+	margin: 0px 98px 0 98px;
+}
+
+#workProc h2{
+	font: 30px 'Myriad Pro', sans-serif;
+	font-weight: bold;
+	color: #191919;
+	text-align: center;
+	margin: 0;
+	padding: 0 0 31px 0;
+}
+
+#workProc p {
+	font: 16px 'Myriad Pro', sans-serif;
+	color: #8a8a8a;
+	text-align: center;
+	margin: 0;
+	margin-bottom: 60px;
+	line-height: 1.6;
+}
+
+#play {
+	height: 91px;
+	width: 89px;
+	position: absolute;
+	background-image: url(../images/play.jpg);
+	background-repeat: no-repeat;
+	top:242px;
+	left: 540px;
+}
+/*end workProc*/
+
+/*begin activities*/
+
+#activities {
+	outline: 0px solid #000000;
+	height: 535px;
+	position: relative;
+	background-color: #f5f5f5;
+	padding: 0 0 0 119px;
+}
+
+#activities ul {
+	margin: 0;
+	padding: 0;
+}
+
+.line1, .line2 {
+	font: 15px 'Myriad Pro', sans-serif;
+	color: #787878;
+	list-style-type: none;
+	display: inline-block;
+	line-height: 1.5;
+	padding-right: 85px;
+	text-align: center;
+}
+
+.line1 {
+	padding-top: 172px;
+}
+
+.line2 {
+	padding-top: 122px;
+}
+
+#activities h2{
+	font: 12px 'Myriad Pro', sans-serif;
+	text-transform: uppercase;
+	color: #191919;
+	font-weight: bold;
+	margin: 0;
+	padding-bottom: 12px;
+}
+
+#act1, #act2, #act3, #act4, #act5, #act6, #act7, #act8 {
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	background-repeat: no-repeat;
+}
+
+#act1, #act2, #act3, #act4 {
+	top: 96px;
+}
+
+#act5, #act6, #act7, #act8 {
+	top: 293px;
+}
+
+#act1, #act5 {
+	left: 208px;
+}
+
+#act2, #act6 {
+	left: 516px;
+}
+
+#act3, #act7 {
+	left: 814px;
+}
+
+#act4, #act8  {
+	left: 1104px;
+}
+
+#act1{
+	background-image: url(../images/act1.jpg);
+}
+
+#act2{
+	background-image: url(../images/act2.jpg);
+}
+
+#act3{
+	background-image: url(../images/act3.jpg);
+}
+#act4{
+	background-image: url(../images/act4.jpg);
+}
+#act5{
+	background-image: url(../images/act5.jpg);
+}
+#act6{
+	background-image: url(../images/act6.jpg);
+}
+#act7{
+	background-image: url(../images/act7.jpg);
+}
+#act8{
+	background-image: url(../images/act8.jpg);
+}
+
+/*end activities*/
+
+/*begin outsJob*/
+#outsJob {
+	outline: 0px solid #000000;
+	height: 498px;
+	position: relative;
+	background-color: #10c9c3;
+	padding: 171px 281px 176px 281px;
+}
+
+#outsJob h2 {
+	font: 24px 'Myriad Pro', sans-serif;
+	font-weight: bold;
+	color: #ffffff;
+	text-align: center;
+	line-height: 1.5;
+	letter-spacing: 0.5px;
+	margin: 0;
+	padding: 0 0 0 0;
+}
+
+#outsJob p {
+	font: 12px 'Myriad Pro', sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #ffffff;
+	text-align: center;
+	margin: 0;
+	padding: 31px 0 0 0;
+}
+
+#points {
+	height: 23px;
+	width: 50px;
+	position: absolute;
+	background-repeat: no-repeat;
+	background-image: url(../images/points.jpg);
+	left: 655px;
+	bottom: 61px;
+}
+
+/*end outsJob*/
+
+/*begin white pics*/
+
+#whitePics {
+	outline: 0px solid #000000;
+	height: 202px;
+	position: relative;
+	background-color: #ffffff;
+}
+
+#whitePic1, #whitePic2, #whitePic3, #whitePic4, #whitePic5 {
+	height: 102px;
+	width: 138px;
+	position: absolute;
+	top: 52px;
+}
+
+#whitePic1 {
+	background-image: url(../images/whitePic1.jpg);
+	left: 108px;
+}
+
+#whitePic2 {
+	background-image: url(../images/whitePic2.jpg);
+	left: 373px;
+}
+
+#whitePic3 {
+	background-image: url(../images/whitePic3.jpg);
+	left: 615px;
+}
+
+#whitePic4 {
+	background-image: url(../images/whitePic4.jpg);
+	left: 881px;
+}
+
+#whitePic5 {
+	background-image: url(../images/whitePic5.jpg);
+	left: 1117px;
+}
+
+/*end white pics*/
+
+/*begin form*/
+
+#form {
+	outline: 0px solid #000000;
+	height: 749px;
+	position: relative;
+	background-color: #f5f5f5;
+}
+
+#form h2 {
+	font: 30px 'Myriad Pro', sans-serif;
+	font-weight: bold;
+	color: #1d1d1d;
+	text-align: center;
+	line-height: 1.5;
+	letter-spacing: 0.5px;
+	margin: 0;
+	padding: 84px 0 0 0;
+}
+
+#form p {
+	font: 16px 'Myriad Pro', sans-serif;
+	color: #898989;
+	text-align: center;
+	margin: 0;
+	padding: 24px 0 35px 0;
+	line-height: 1.5;
+}
+
+#form input {
+	margin-bottom: 31px;
+	border: 0;
+	color: #787878;
+	padding-left: 20px;
+	font-weight: bold;
+	font: 15px 'Myriad Pro', sans-serif;
+}
+
+#name {
+	height: 48px;
+	width: 320px;
+	margin-left: 346px;
+}
+
+#email {
+	height: 48px;
+	width: 320px;
+	margin-left: 26px;
+}
+
+#title {
+	height: 48px;
+	width: 670px;
+	margin-left: 346px;
+}
+
+#comment {
+	height: 171px;
+	width: 670px;
+	margin-left: 346px;
+}
+
+#buttonLink1 {
+	background-color: #10c9c3;
+	outline: 0px solid green;
+	height:54px;
+	width: 179px;
+	padding: 14px 43px;
+	margin-left: 591px;
+}
+
+#buttonLink1 a {
+	text-transform: uppercase;
+	cursor: pointer;
+	text-decoration: none;
+	color: #ffffff;
+	font-weight: 12px 'Myriad Pro', sans-serif;
+}
+/*end form*/
+
+/*begin footer*/
+
+#footer {
+	height: 282px;
+	position: relative;
+	background-color: #141414;
+	color: #9a9a9a;
+}
+
+#footer p {
+	font: 15px 'Myriad Pro', sans-serif;
+	line-height: 1.6;
+}
+
+#block1 {
+	outline: 0px solid #ffffff;
+	height: 119px;
+	width: 248px;
+	position: absolute;
+	left: 96px;
+	top: 98px; 
+}
+
+#block1 h2 {
+	font: 18px 'Myriad Pro', sans-serif;
+	color: #ffffff;
+	margin: 0;
+	padding-bottom: 27px;
+}
+
+#block2 {
+	outline: 0px solid #ffffff;
+	height: 119px;
+	width: 248px;
+	position: absolute;
+	left: 566px;
+	top: 98px; 
+}
+
+
+#block3 {
+	outline: 0px solid #ffffff;
+	height: 99px;
+	width: 383px;
+	position: absolute;
+	left: 865px;
+	top: 98px; 
+}
+
+#block3 ul {
+	display: inline-block;
+	list-style-type: none;
+}
+#li1 {
+	padding: 0 55px 0 0;
+}
+#li1>a{
+	color:#9a9a9a;
+}
+#li2 {
+	padding: 0 134px 0 0;
+}
+#li2>a{
+	color:#9a9a9a;
+}
+
+#li3 {
+	padding: 0;
+
+}
+#li3>a{
+	color:#9a9a9a;
+}
+
+
+
+/*end footer*/
